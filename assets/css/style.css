@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap');
+
+:root {
+    --color-1: #053452;
+    --color-2: #1d1d1d;
+    --color-3: #2e2e2e;
+    --color-4: #115c61;
+    --background-color: #f2f2f2;
+    --font: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font);
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    background-color: var(--background-color);
+}
+
+main {
+    display: flex;
+    width: 100%;
+    flex-flow: column wrap;
+    justify-content: center;
+    padding: 0 50px;
+
+    background: url('../img/fundo-linhas.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+a {
+    text-decoration: none;
+}

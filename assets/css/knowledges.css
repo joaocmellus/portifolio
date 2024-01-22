@@ -1,0 +1,35 @@
+main > section {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: clamp(0.7rem, 1vw, 1rem);
+}
+
+h1 {
+    width: 100%;
+    font-size: 4em;
+    color: var(--color-2);
+    line-height: 0.8em;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.list-container ol {
+    list-style: lower-alpha;
+    padding-left: 32px;
+}
+
+.list-container ol li {
+    font-size: 1.25em;
+}
+
+.list-container h2 {
+    margin-bottom: 20px;
+}
+
+.list-container:not(:last-child) {
+    margin-right: 100px;
+}
+
+.list-container h2 {
+    font-size: 1.5em;
+}

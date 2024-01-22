@@ -1,0 +1,58 @@
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    font-size: clamp(0.7rem, 1vw, 1rem);
+}
+
+h1 {
+    font-size: 4em;
+    color: var(--color-2);
+    line-height: 0.8em;
+    text-transform: uppercase;
+}
+
+.sub-title {
+    font-size: 1.8em;
+    color: var(--color-3);
+    text-transform: uppercase;
+}
+
+.text {
+    font-size: 1.1em;
+}
+
+.text p:not(:last-child) {
+    margin-bottom: 0.9em;
+}
+
+.emphasis-color {
+    font-weight: 500;
+    color: var(--color-4);
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.social-media a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-2);
+    padding: 15px;
+    border-radius: 100%;
+}
+
+.social-media img {
+    height: 25px;
+    transition-duration: 0.3s;
+}
+
+.social-media a:hover img {
+    opacity: 0.9;
+    height: 30px;
+    transition-duration: 0.3s;
+}
